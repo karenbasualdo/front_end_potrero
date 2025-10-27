@@ -1,0 +1,71 @@
+/* Fuente importada desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #dcd4eb; 
+    margin: 40px;
+     line-height: 1.6; /* mejora la lectura del texto */
+}
+
+h1 {
+    font-family: 'MonteCarlo', cursive;
+    font-style: italic;
+    color: #170744; 
+    text-align: center;
+    font-size: 70px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #2e0b0b;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #170744; 
+    text-align: center;
+    border-bottom: 2px solid #b497e0; /* línea decorativa */
+    padding-bottom: 5px
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #170744; 
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    color: #212024; 
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #b02a37; /* rojo suave al pasar el mouse */
+}
+ul {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #212024; 
+}
+ol {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #212024; 
+}
+
+img, iframe {
+    display: block;
+    margin: 20px auto; /* espacio entre los elementos */
+    border-radius: 10px; /* bordes redondeados  */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* leve sombra */
+}
+
